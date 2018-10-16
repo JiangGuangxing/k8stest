@@ -33,4 +33,16 @@
             </plugin>
         </plugins>
     </build>
+    <distributionManagement>
+        <repository>
+            <id>nuoyuan_releases</id>
+            <name>core Release Repository</name>
+            <url>http://10.26.23.164:8081/nexus/content/repositories/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>nuoyuan_snapshots</id>
+            <name>core Snapshots Repository</name>
+            <url>http://10.26.23.164:8081/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
