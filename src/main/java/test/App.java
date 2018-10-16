@@ -20,6 +20,6 @@ public class App {
 
     @GetMapping
     public String hello() {
-        return "hello world!";
+        return "test hello world!";
     }
 }
